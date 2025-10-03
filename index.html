@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dorasi Zevta</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="site-loader">
+        <div class="loader-content">
+            <span class="loader-name">Dorasi Zevta</span>
+        </div>
+    </div>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">DorasiZev</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skilss" class="nav-link">Technologies</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg-image">
+            <img src="cloud-server.png" alt="Cloud Server Background" />
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight" id="binary-anim">dorasi zevta</span>
+                </h1>
+                <div class="hero-typing-container" style="margin-bottom:1.2rem;">
+                    <span id="hero-typing" class="exp-typing"></span>
+                </div>
+                <p class="hero-description">
+                    a visionary who blurs the lines between logical work and creative work.
+                </p>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <div class="profile-image-wrapper">
+                        <img src="profile.jpg" alt="Profile Picture" class="profile-image-pic" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-bg-image">
+            <img src="about-bg.png" alt="About Background" />
+        </div>
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a passionate and detail oriented Junior Cyber Security Engineer with a strong
+                        foundation in network security, Web Security, and Data Security. I'm deeply
+                        motivated by the fast paced world of cybersecurity and thrive on solving security challenges
+                    </p>
+                    <p>
+                        I like to keep myself relevant by completing Capture The Flags and keeping up to date with the latest technology.
+                        I also keep myself busy with making electronic music and graphic design.
+                        I want to improve myself in Cyber Security to become a good Penetration Tester.
+                        I am always on the lookout for vulnerabilities in a system and like to challenge myself with unresolved system weaknesses.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>2+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h3>5+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="about-card">
+                        <i class="fas fa-code"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Cyber Shield</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-network-wired"></i></div>
+                    <h3>Network Security</h3>
+                    <p>Protect network structure from unauthorized access, misuse, or theft with advanced security solutions.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>Web Security</h3>
+                    <p>Safeguard your websites and web applications against cyber attacks, vulnerabilities, and data breaches.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-database"></i></div>
+                    <h3>Data Security</h3>
+                    <p>Ensure the confidentiality, integrity, and availability of your sensitive data.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-search"></i></div>
+                    <h3>Identifying Threats</h3>
+                    <p>Detect, analyze, and respond to potential threats before they impact your operations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-level="Beginner">GNS3</div>
+                        <div class="skill-item" data-level="Advance">Mikrotik</div>
+                        <div class="skill-item" data-level="Advance">Cisco Packet Tracer</div>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item" data-level="Beginner">Wireshark</div>
+                        <div class="skill-item" data-level="Intermediate">Nmap</div>
+                        <div class="skill-item" data-level="Intermediate">sqlmap</div>
+                        <div class="skill-item" data-level="Intermediate">Netcat</div>
+                        <div class="skill-item" data-level="Intermediate">Metasploit</div>
+                        <div class="skill-item" data-level="Intermediate">Burp Suite</div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Operating Systems</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-level="Intermediate">Kali</div>
+                        <div class="skill-item" data-level="Intermediate">Ubuntu</div>
+                        <div class="skill-item" data-level="Intermediate">Debian</div>
+                        <div class="skill-item" data-level="Beginner">macOS</div>
+                        <div class="skill-item" data-level="Advance">Windows</div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tech Stack</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-level="Beginner">Python</div>
+                        <div class="skill-item" data-level="Beginner">SQL</div>
+                        <div class="skill-item" data-level="Beginner">PHP</div>
+                        <div class="skill-item" data-level="Beginner">Bash</div>
+                        <div class="skill-item" data-level="Intermediate">HTML</div>
+                        <div class="skill-item" data-level="Intermediate">CSS</div>
+                        <div class="skill-item" data-level="Intermediate">JavaScript</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="experience-typing-container" style="text-align:center; margin-bottom:2rem;">
+                <span id="experience-typing" class="exp-typing"></span>
+            </div>
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <div class="exp-header">
+                        <span class="exp-role">IT Support</span>
+                        <span class="exp-company">@ MNT Group</span>
+                    </div>
+                    <div class="exp-duration">May 2024 – November 2024</div>
+                    <div class="exp-desc">Responsible for installing, evaluating, and upgrading software, hardware, system infrastructure, and ensuring network security to maintain optimal IT performance and reliability.</div>
+                </div>
+                <div class="experience-card">
+                    <div class="exp-header">
+                        <span class="exp-role">Frontend Developer</span>
+                        <span class="exp-company">Self Employed</span>
+                    </div>
+                    <div class="exp-duration">2020 – Now</div>
+                    <div class="exp-desc">Responsible for creating dynamic and user-friendly interfaces for web applications, focusing on usability, responsiveness, and visual consistency.</div>
+                </div>
+                <div class="experience-card">
+                    <div class="exp-header">
+                        <span class="exp-role">Graphic Designer</span>
+                        <span class="exp-company"> Freelance</span>
+                    </div>
+                    <div class="exp-duration">2020 – Now</div>
+                    <div class="exp-desc">Created modern and visually engaging graphic designs across 25+ completed projects, combining high details creativity with functionality to deliver high-impact visual content for various clients and industries.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Secure File Upload System</h3>
+                        <p>Protect Sensitive Data during the upload process  .</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Flask</span>
+                            <span>Scikit-learn</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-key"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Keylogger</h3>
+                        <p>A security research tool for monitoring keystrokes, designed for ethical testing and awareness training.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>PyInstaller</span>
+                            <span>Windows/Linux</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>SQL Injection</h3>
+                        <p>Demonstrates SQL injection vulnerabilities and prevention techniques for web applications.</p>
+                        <div class="project-tech">
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>OWASP</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's work together!</h3>
+                    <p>I'm always interested in new opportunities and exciting projects. Feel free to reach out if you'd like to collaborate or just want to say hello :)</p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <span>dorasipakpahan161@gmail.com</span>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-phone"></i>
+                            <span>+628-9517-5813-79</span>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Indonesia</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                    <a href="https://www.linkedin.com/in/dorasi-zevta-62181a274" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Open Work Portfolio Section -->
+    <section id="open-work-portfolio" class="open-work-portfolio">
+        <div class="container">
+            <h2 class="section-title">Open Work Portfolio</h2>
+            <div style="display: flex; flex-direction: column; align-items: center;">
+                <a href="https://bento.me/dorasizev" class="card-link-btn">
+                    <i class="fas fa-external-link-alt"></i> Open Work Portfolio
+                </a>
+                <p style="max-width: 500px; text-align: center; margin-top: 1.2rem; color: var(--text-secondary); font-size: 1.08rem;">
+                    This Open Work Portfolio site is for all of my projects, such as creative and logical projects. (Still Working On It)
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; Built by Dorasi Zevta. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
